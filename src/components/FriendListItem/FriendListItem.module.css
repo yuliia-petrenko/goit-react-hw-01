@@ -1,0 +1,21 @@
+.friendList {
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.friendName {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.statusOffline {
+  font-size: 12px;
+  color: red;
+}
+
+.statusOnline {
+  font-size: 12px;
+  color: green;
+}

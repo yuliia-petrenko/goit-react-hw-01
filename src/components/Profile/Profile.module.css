@@ -1,0 +1,75 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.profile {
+  font-family: sans-serif;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin: 50px auto 50px;
+}
+
+.profileView {
+  text-align: center;
+  padding: 20px;
+}
+
+.avatar {
+  width: 200px;
+  border: 5px solid black;
+  /* overflow: hidden; */
+  border-radius: 50%;
+  background-color: black;
+}
+
+.profileName {
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: 50%;
+}
+.infoName {
+  font-size: 28px;
+  font-weight: 500;
+  color: grey;
+  margin-bottom: 16px;
+}
+
+.statsInfo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: lightgrey;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.statsInfoItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100% / 3);
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
+.statsInfoItem:last-child {
+  border-right: none;
+}
+
+.statsName {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.statsValue {
+  font-size: 28px;
+  font-weight: 600;
+}
